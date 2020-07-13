@@ -1,0 +1,61 @@
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-sd-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", Times, serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 175%;
+}
+
+.name {
+  display: inline-block;
+  text-align: center;
+  background-color: red;
+  position: relative;
+  top: -2px;
+  left: 2px;
+}
+
+.item {
+  border: 1px solid black;
+  text-align: right;
+  background-color: #aaaaaa ;
+  margin: 20px;
+}
+
+.row {
+  width: 100%;
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+  text-align: left;
+}
+
+h3 {
+  width: 125px;
+  border: 1px solid black;
+  font-size: 125%
+}
